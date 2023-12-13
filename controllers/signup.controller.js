@@ -1,4 +1,3 @@
-const { response } = require("express");
 const userModel = require("../models/signup.model");
 const bcryptjs = require("bcryptjs");
 const signupUser = (req, res) => {
