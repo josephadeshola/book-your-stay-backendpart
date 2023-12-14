@@ -21,7 +21,7 @@ const signupUser = (req, res) => {
           .status(500)
           .json({
             status: false,
-            message: "Please fill in all details correctly",
+            message: "server error ",
           });
       }
     });
