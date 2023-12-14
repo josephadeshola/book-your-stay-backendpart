@@ -57,4 +57,4 @@ const home = (req,res) =>{
   res.send('welcome ay')
 }
 
-module.exports = { signupUser, signinUser };
+module.exports = { signupUser, signinUser, home };
