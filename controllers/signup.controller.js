@@ -53,5 +53,8 @@ const signinUser = (req, res) => {
       res.json({ status: false, message: "Internal Server Error" });
     });
 };
+const home = (req,res) =>{
+  res.send('welcome ay')
+}
 
 module.exports = { signupUser, signinUser };
